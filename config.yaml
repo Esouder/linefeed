@@ -12,10 +12,10 @@ format:
     - "`"
   max_line_length: 78
   lines_per_page: 60
-  line_ending: !!binary |
-    Cg==
+  line_ending: b'\r\n'
+    DQo=.
   page_ending: !!binary |
-    DQo=
+    DA==
   bell: !!binary |
     Bw==
   underline_start: !!binary |
