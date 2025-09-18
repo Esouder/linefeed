@@ -10,7 +10,7 @@ format:
   unsupported_chars:
     - "~"
     - "`"
-  max_line_length: 79
+  max_line_length: 78
   lines_per_page: 60
   line_ending: !!binary |
     DQo=.
