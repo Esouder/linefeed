@@ -1,10 +1,7 @@
-from html import parser
-from logging import config
 from .api import api
 from .config_manager import ConfigManager
 from .formatter import Formatter
 from .print_handler import PrintHandler
-from fastapi import FastAPI
 import argparse
 from uvicorn import Config, Server
 
