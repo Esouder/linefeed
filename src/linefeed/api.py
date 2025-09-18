@@ -20,7 +20,7 @@ def get_print_handler(request: Request) -> PrintHandler:
     return request.app.state.print_handler
 
 
-@api.put("/print")
+@api.post("/print")
 def new_print_command(
     command: PrintCommand,
     formatter: Formatter = Depends(get_formatter),
