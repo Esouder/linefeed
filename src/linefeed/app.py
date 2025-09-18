@@ -46,7 +46,7 @@ def create_app() -> None:
 
     server_config = Config(
         app=api,
-        host=config_manager.api_config.port,
+        host=config_manager.api_config.host,
         port=config_manager.api_config.port,
         workers=1,
     )
