@@ -2,4 +2,5 @@ from pydantic import BaseModel
 
 
 class ApiConfig(BaseModel):
-    pass
+    port: int
+    host: str = "127.0.0.1"
